@@ -1,0 +1,84 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html{
+	background-color: #eaf0f2;
+}
+
+body{
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+.menu h1{
+	margin-top:0;
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+
+.menu nav{
+	float: left;
+	max-width: 190px;
+	margin: 25px;
+	padding: 1em;
+	border: 2px solid cornflowerblue;
+	border-radius: 15px;
+}
+.menu .info{
+	margin-top: 30px;
+	margin-right: 180px;
+	margin-left: 60px;
+	padding: 3em;
+	overflow: hidden;
+}
+
+.menu .info, .menu.bids{
+	float: left;
+}
+
+.menu .bids{
+	margin-top: 60px;
+	margin-left: 190px;
+	padding: 3em;
+	overflow: hidden;
+}
+
+
+.menu{
+
+	padding-top: 50px;
+	margin-bottom:200px;
+}
+
+
+
+
+.menu button{
+	text-decoration: none;
+	display: block;
+	horiz-align: left;
+	color: #FFF;
+	text-align: left;
+	background-color: #B9C1CA;
+	padding: 10px 16px;
+	border-radius: 2px;
+	opacity: 0.8;
+	font-size: 16px;
+	margin: 4px;
+	line-height: 1;
+	outline: none;
+	width: 170px;
+	transition: 0.2s ease;
+}
+
+.menu button.active{
+	background-color: #66B650;
+	pointer-events: none;
+}
+
+.menu button:hover {
+	opacity: 1;
+}
+
+
+

@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="javax.websocket:javax.websocket-client-api:1.0" type="repository">
+    <properties maven-id="javax.websocket:javax.websocket-client-api:1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-client-api/1.0/javax.websocket-client-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-16.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guice-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/idea-websocket-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xwork-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.websocket-client-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.websocket-client-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoup-1.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/async-http-client-1.9.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/async-http-client-1.7.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaee-api-7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/async-http-client-1.9.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

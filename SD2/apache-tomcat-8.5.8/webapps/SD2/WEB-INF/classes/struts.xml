@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+
+        <global-results>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/noservice.jsp</result>
+            <result name="error">/error.jsp</result>
+            <result name="ERROR">/error.jsp</result>
+        </global-results>
+
+        <action name="login" class="action.Login">
+            <result name="success">/profile.jsp</result>
+            <result name="admin">/adminmenu.jsp</result>
+            <result name="authorization">/authorize.jsp</result>
+            <result name="index">/index.jsp</result>
+            <result name="stay">/index.jsp</result>
+        </action>
+
+        <action name="remove" class="action.Remove">
+            <result name="success">/profile.jsp</result>
+            <result name="admin">/adminmenu.jsp</result>
+            <result name="authorization">/authorize.jsp</result>
+            <result name="index">/index.jsp</result>
+            <result name="stay">/index.jsp</result>
+        </action>
+
+        <action name="socialLogin" class="action.SocialLogin">
+            <result name="success">/profile.jsp</result>
+            <result name="index">/index.jsp</result>
+            <result name="admin">/adminmenu.jsp</result>
+            <result name="authorization">/authorize.jsp</result>
+            <result name="stay">/index.jsp</result>
+        </action>
+
+        <action name="createpage" class="action.MenuHandling">
+            <result name="success">/create.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="createauction" class="action.CreateAuction">
+            <result name="success">/detailauction.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/create.jsp</result>
+            <result name="stay">/create.jsp</result>
+        </action>
+
+        <action name="searchpage" class="action.MenuHandling">
+            <result name="success">/search.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="searchauction" class="action.SearchAuction">
+            <result name="listauctions">/listauctions.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/search.jsp</result>
+            <result name="stay">/search.jsp</result>
+        </action>
+
+        <action name="registerpage" class="action.MenuHandling">
+            <result name="success">/register.jsp</result>
+            <result name="login">/register.jsp</result>
+        </action>
+
+        <action name="register" class="action.Register">
+            <result name="success">/profile.jsp</result>
+            <result name="noservice">/profile.jsp</result>
+            <result name="stay">/register.jsp</result>
+        </action>
+
+        <action name="myauctions" class="action.MyAuctions">
+            <result name="listauctions">/listauctions.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/listauctions.jsp</result>
+            <result name="stay">/profile.jsp</result>
+        </action>
+
+        <action name="logout" class="action.Logout">
+            <result name="success">/index.jsp</result>
+            <result name="stay">/profile.jsp</result>
+        </action>
+
+        <action name="detailpage" class="action.MenuHandling">
+            <result name="success">/detailpage.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="detailauction" class="action.DetailAuction">
+            <result name="detailauction">/detailauction.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/detailauction.jsp</result>
+            <result name="stay">/detailauction.jsp</result>
+        </action>
+
+
+
+        <action name="createbidpage" class="action.CreateBid">
+            <result name="success">/detailauction.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/createbid.jsp</result>
+            <result name="stay">/createbid.jsp</result>
+        </action>
+
+        <action name="editauctionpage" class="action.MenuHandling">
+            <result name="success">/editauction.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="editauction" class="action.DetailAuction">
+            <result name="detailauction">/editauctionpage.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/editauction.jsp</result>
+            <result name="stay">/editauction.jsp</result>
+        </action>
+
+        <action name="editauctionvalue" class="action.EditAuction">
+            <result name="success">/detailauction.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/editauctionpage.jsp</result>
+            <result name="stay">/editauctionpage.jsp</result>
+        </action>
+
+        <action name="messageauctionpage" class="action.MessageAuction">
+            <result name="detailauction">/detailauction.jsp</result>
+            <result name="success">/profile.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/messageauction.jsp</result>
+            <result name="stay">/messageauction.jsp</result>
+        </action>
+
+        <action name="banuserpage" class="action.MenuHandling">
+            <result name="success">/banuserpage.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="banuser" class="action.BanUser">
+            <result name="success">/profile.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/banuserpage.jsp</result>
+            <result name="stay">/banuserpage.jsp</result>
+        </action>
+
+        <action name="cancelauctionpage" class="action.MenuHandling">
+            <result name="success">/cancelauction.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="cancelauction" class="action.CancelAuction">
+            <result name="success">/detailauctionadmin.jsp</result>
+            <result name="login">/index.jsp</result>
+            <result name="noservice">/cancelauction.jsp</result>
+            <result name="stay">/cancelauction.jsp</result>
+        </action>
+
+        <action name="estatisticaspage" class="action.MenuHandling">
+            <result name="success">/estatisticas.jsp</result>
+            <result name="login">/index.jsp</result>
+        </action>
+
+        <action name="estatisticas" class="action.Estatisticas">
+            <result name="estatisticas">/estatisticas.jsp</result>
+            <result name="noservice">/adminmenu.jsp</result>
+            <result name="stay">/adminmenu.jsp</result>
+        </action>
+
+    </package>
+</struts>
